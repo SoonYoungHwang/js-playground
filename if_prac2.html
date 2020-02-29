@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>대소문자 판별기</h1>
+    <script>
+        var receiveStr = prompt("영어 문자를 하나만 입력해주세요.");
+        var upperReceiveStr = receiveStr.toUpperCase();
+        var lowerReceiveStr = receiveStr.toLowerCase();
+        if(receiveStr === upperReceiveStr){
+            console.log("대문자이므니다.");
+        } else if (receiveStr === lowerReceiveStr){
+            console.log("소문자이므니다.");
+        } else {
+            console.log("숫자 아닌가요?");
+        }
+    </script>
+</body>
+</html>

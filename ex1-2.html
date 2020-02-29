@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>BMI 계산기</h1>
+    <script>
+        var customerWeight = prompt("고객님의 몸무게를 적어주세요. (kg)")
+        var customerHeight = prompt("고객님의 키를 적어주세요. (cm)")
+        var numCustomerWeight = Number(customerWeight)
+        var numCustomerHeight = Number(customerHeight)/100
+        var BMI = numCustomerWeight / (numCustomerHeight * numCustomerHeight)
+        console.log(BMI)
+    </script>
+</body>
+</html>
