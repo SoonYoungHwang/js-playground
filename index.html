@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>경천빌딩 매매 18억 — 대구 동구 동호동 367-2 (각산역 4분)</title>
+<meta name="description" content="대구 동구 동호동 367-2 경천빌딩 매매. 연면적 249.1평, 2011년 준공, 월 440만 원 임대수익. 매매 희망가 18억 원(협의 가능). 옆 367-4(2004년, 21~21.5억)보다 평당 6~8% 낮은 723만 원.">
+<meta property="og:title" content="경천빌딩 매매 18억 — 대구 동호동 367-2">
+<meta property="og:description" content="각산역 도보 4분, 연면적 249.1평, 월 440만 원 수익. 옆 건물보다 평당 6~8% 낮은 723만 원.">
+<meta name="theme-color" content="#0F2740">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://soonyounghwang.github.io/js-playground/">
+<meta property="og:site_name" content="경천빌딩 매매">
+<meta property="og:image" content="https://soonyounghwang.github.io/js-playground/og.png">
+<meta property="og:image:width" content="1654">
+<meta property="og:image:height" content="866">
+<meta name="twitter:card" content="summary_large_image">
+
+<style>
+  :root{
+    --navy:#0F2740; --navy2:#17375A; --gold:#B08C3B; --gold-d:#8A6A22;
+    --gold-l:#FBF6E9; --ink:#1C2833; --gray:#5A6672; --gray-l:#8A97A3;
+    --line:#DDE3E8; --bg:#F4F6F8; --zebra:#FAFBFC; --white:#fff;
+  }
+  *{box-sizing:border-box; -webkit-text-size-adjust:100%;}
+  html,body{margin:0; padding:0;}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Malgun Gothic","Noto Sans KR",sans-serif;
+    color:var(--ink); background:var(--white); line-height:1.55;
+    font-size:15px; letter-spacing:-0.01em;
+    padding-bottom:76px; /* sticky CTA */
+    word-break:keep-all; overflow-wrap:anywhere;
+  }
+  .wrap{max-width:480px; margin:0 auto; padding:0 16px;}
+  section{padding:22px 0 4px;}
+  h2{
+    font-size:16px; margin:0 0 12px; color:var(--navy); font-weight:800;
+    display:flex; align-items:baseline; gap:8px;
+  }
+  h2::before{content:""; display:inline-block; width:3px; height:14px; background:var(--gold); border-radius:1px; transform:translateY(1px);}
+  h2 .note{font-size:11px; color:var(--gray-l); font-weight:500; letter-spacing:0; margin-left:auto; text-align:right;}
+
+  /* hero */
+  .hero{background:var(--navy); color:#fff; padding:22px 0 18px;}
+  .hero .kicker{font-size:11px; letter-spacing:.18em; color:#9FB2C6; font-weight:600;}
+  .hero h1{font-size:32px; line-height:1.1; margin:6px 0 6px; font-weight:900; letter-spacing:-0.02em;}
+  .hero .bar{width:34px; height:3px; background:var(--gold); margin:0 0 12px; border-radius:2px;}
+  .hero .addr{font-size:14px; color:#D5E0EB; font-weight:600;}
+  .hero .sub{font-size:12.5px; color:#A9BCCF; margin-top:3px;}
+  .price{margin-top:16px; padding-top:14px; border-top:1px solid #2C4A6B; display:flex; align-items:flex-end; justify-content:space-between; gap:10px;}
+  .price .label{font-size:11px; color:#93A9C0; font-weight:600;}
+  .price .num{font-size:30px; font-weight:900; line-height:1.05; letter-spacing:-0.02em;}
+  .price .tag{display:inline-block; background:var(--gold); color:#fff; font-size:11px; font-weight:800; padding:3px 8px; border-radius:3px; vertical-align:6px; margin-left:6px;}
+  .price .unit{font-size:11.5px; color:#A9BCCF; text-align:right; line-height:1.5;}
+  .badges{display:flex; flex-wrap:wrap; gap:5px; margin-top:12px;}
+  .badges span{font-size:10.5px; color:#C3D2E1; border:1px solid #3E5874; border-radius:3px; padding:2.5px 7px;}
+
+  /* kpi */
+  .kpi{display:grid; grid-template-columns:1fr 1fr; gap:8px; margin:16px 0 4px;}
+  .kpi div{background:var(--bg); border-left:2.5px solid var(--navy); padding:10px 10px 9px;}
+  .kpi div:nth-child(n+3){border-left-color:var(--gold);}
+  .kpi b{display:block; font-size:11px; color:var(--gray); font-weight:600;}
+  .kpi strong{display:block; font-size:19px; color:var(--navy); font-weight:800; letter-spacing:-0.02em; margin:1px 0 0;}
+  .kpi small{display:block; font-size:10.5px; color:var(--gray-l); line-height:1.4;}
+
+  /* cards */
+  .card{background:var(--bg); border-left:3px solid var(--navy); padding:13px 14px; margin-bottom:9px;}
+  .card.gold{border-left-color:var(--gold);}
+  .card .no{font-size:11px; font-weight:800; color:var(--gold); letter-spacing:.04em;}
+  .card h3{font-size:15px; margin:2px 0 6px; font-weight:800; color:var(--navy); line-height:1.35;}
+  .card p{margin:0; font-size:13px; color:var(--gray); line-height:1.62;}
+
+  /* tables */
+  .tw{overflow:hidden; border:1px solid #C9D2DA; border-radius:2px;}
+  table{width:100%; border-collapse:collapse; table-layout:fixed;}
+  th,td{padding:8px 6px; font-size:11.5px; text-align:left; vertical-align:middle; word-break:keep-all;}
+  thead th{background:var(--navy); color:#fff; font-weight:700; font-size:11px; padding:8px 6px;}
+  tbody tr:nth-child(even){background:var(--zebra);}
+  tbody tr+tr td{border-top:1px solid var(--line);}
+  td.k{color:var(--gray); font-weight:600; font-size:11px;}
+  td b{color:var(--navy); font-weight:800;}
+  .hi{background:var(--gold-l)!important;}
+  .hi td{color:var(--navy);}
+  .num-cell{text-align:right; font-variant-numeric:tabular-nums;}
+  .cap{font-size:10.5px; color:var(--gray-l); line-height:1.55; margin-top:7px;}
+
+  /* specs */
+  .specs{display:grid; grid-template-columns:auto 1fr; border-top:1px solid var(--line);}
+  .specs dt, .specs dd{margin:0; padding:7px 0; border-bottom:1px solid var(--line); font-size:12.5px;}
+  .specs dt{color:var(--gray); font-weight:600; padding-right:12px; white-space:nowrap; font-size:11.5px;}
+  .specs dd{color:var(--ink);}
+
+  /* stats */
+  .stats{display:grid; gap:7px;}
+  .stats div{background:var(--bg); border-left:2.5px solid var(--gold); padding:9px 11px;}
+  .stats b{display:block; font-size:14.5px; color:var(--navy); font-weight:800; line-height:1.35;}
+  .stats small{font-size:11px; color:var(--gray);}
+  .bars{margin-top:13px;}
+  .bars .row{display:grid; grid-template-columns:96px 1fr 42px; align-items:center; gap:8px; margin-bottom:6px;}
+  .bars .lb{font-size:11px; color:var(--gray); font-weight:600; line-height:1.3;}
+  .bars .track{height:8px; background:#EEF1F4; border-radius:4px; overflow:hidden;}
+  .bars .fill{height:100%; border-radius:4px; background:#BCC6D0;}
+  .bars .fill.on{background:var(--gold);}
+  .bars .vl{font-size:11px; font-weight:800; color:var(--gray); text-align:right;}
+  .bars .vl.on{color:var(--gold-d);}
+
+  /* faq */
+  .qa{border-top:1px solid var(--line); padding:13px 0;}
+  .qa .q{font-size:14px; font-weight:800; color:var(--navy); line-height:1.45;}
+  .qa .q i{color:var(--gold); font-style:normal; font-weight:900; margin-right:6px;}
+  .qa .a{margin:6px 0 0; font-size:13px; color:var(--gray); line-height:1.65;}
+
+  /* buyers */
+  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:8px;}
+  .grid2 div{background:var(--bg); border-top:2.5px solid var(--navy); padding:10px;}
+  .grid2 b{display:block; font-size:13px; color:var(--navy); font-weight:800; margin-bottom:3px;}
+  .grid2 span{display:block; font-size:11px; color:var(--gold-d); font-weight:700; line-height:1.4;}
+  .grid2 small{display:block; font-size:11px; color:var(--gray); line-height:1.5; margin-top:3px;}
+
+  /* fee note */
+  .fee{background:var(--gold-l); border:1.5px solid var(--gold); border-left-width:5px; padding:13px 14px; margin:6px 0 4px;}
+  .fee .t{font-size:13.5px; font-weight:800; color:var(--gold-d); line-height:1.4;}
+  .fee p{margin:6px 0 0; font-size:12.5px; color:#4A4232; line-height:1.6;}
+  .fee b{font-weight:800;}
+
+  /* cta */
+  .cta{background:var(--navy); color:#fff; padding:22px 0; margin-top:26px;}
+  .cta .t{font-size:11px; letter-spacing:.14em; color:#9FB2C6; font-weight:700;}
+  .cta .who{font-size:20px; font-weight:900; margin:4px 0 2px;}
+  .cta .ph{font-size:24px; font-weight:900; color:#F0DFB5; letter-spacing:.01em; margin-bottom:14px;}
+  .cta a.btn{
+    display:block; text-align:center; text-decoration:none; background:var(--gold); color:#fff;
+    font-weight:800; font-size:16px; padding:14px; border-radius:6px;
+  }
+  .cta .etc{font-size:11.5px; color:#C3D2E1; margin-top:10px; text-align:center; line-height:1.6;}
+  footer{padding:16px 0 28px; font-size:10.5px; color:var(--gray-l); line-height:1.6;}
+  .sticky{position:fixed; left:0; right:0; bottom:0; z-index:9; background:rgba(15,39,64,.97); padding:9px 16px calc(9px + env(safe-area-inset-bottom));}
+  .sticky a{display:flex; align-items:center; justify-content:center; gap:8px; max-width:480px; margin:0 auto; background:var(--gold); color:#fff; text-decoration:none; font-weight:800; font-size:15px; padding:12px; border-radius:6px;}
+  .sticky a span.n{font-variant-numeric:tabular-nums;}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="wrap">
+    <div class="kicker">상업용 빌딩 · 수익형 매물</div>
+    <h1>경천빌딩</h1>
+    <div class="bar"></div>
+    <div class="addr">대구 동구 동호로3길 13 (동호동 367-2)</div>
+    <div class="sub">각산역 도보 4분 · 동호지구 먹자골목 · 연면적 249.1평</div>
+    <div class="price">
+      <div>
+        <div class="label">매매 희망가</div>
+        <div class="num">18억 원<span class="tag">협의 가능</span></div>
+      </div>
+      <div class="unit">연면적 평당 723만 원<br>대지 평당 1,837만 원<br>권리금 없음 · 즉시 입주</div>
+    </div>
+    <div class="badges">
+      <span>준주거지역</span><span>제2종 근린생활시설</span><span>2011년 준공</span><span>승강기·주차 5대</span>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="kpi">
+    <div><b>대지면적</b><strong>98.0평</strong><small>324㎡ · 준주거지역</small></div>
+    <div><b>연면적</b><strong>249.1평</strong><small>823.5㎡ · 지상 5층</small></div>
+    <div><b>현 임대수익</b><strong>월 440만 원</strong><small>연 5,280만 · 보증금 4,000만</small></div>
+    <div><b>수익률</b><strong>연 3.0%</strong><small>5층 임대 시 3.7~3.8%</small></div>
+  </div>
+
+  <section>
+    <h2>이 물건의 강점</h2>
+    <div class="card gold">
+      <div class="no">01</div>
+      <h3>동일 블록 압도적 가격 메리트</h3>
+      <p>바로 옆 동호동 367-4(2004년, 21~21.5억)보다 7년 더 신축이면서 연면적 평당 723만 원. 367-4(772~790만 원)보다 6~8% 낮습니다.</p>
+    </div>
+    <div class="card">
+      <div class="no">02</div>
+      <h3>입지 · 배후 수요</h3>
+      <p>각산역 도보 4분, 동호지구 먹자골목 안. 배후 2,300여 세대에 동호지구 일반상가 공실률은 4.2% — 대구 주요 상권 중 가장 낮은 수준입니다.</p>
+    </div>
+    <div class="card">
+      <div class="no">03</div>
+      <h3>스펙 · 안정적인 임대 기반</h3>
+      <p>대지 98평·연면적 249.1평, 지상 5층에 승강기·주차 5대. 1층(2020년~)·2~4층(2018년~) 장기 임차 중이고 5층 50.5평은 공실로 바로 쓸 수 있습니다.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>옆 건물과 직접 비교<span class="note">같은 용도·층 구성</span></h2>
+    <div class="tw">
+      <table>
+        <colgroup><col style="width:26%"><col style="width:40%"><col style="width:34%"></colgroup>
+        <thead><tr><th>구분</th><th>경천빌딩</th><th>367-4 (바로 옆)</th></tr></thead>
+        <tbody>
+          <tr class="hi"><td class="k">준공</td><td><b>2011년</b> (15년차)</td><td>2004년 (22년차)</td></tr>
+          <tr><td class="k">연면적</td><td>249.1평</td><td>272.0평 (+9%)</td></tr>
+          <tr><td class="k">대지면적</td><td>98.0평</td><td>97.9평 (동일)</td></tr>
+          <tr><td class="k">매매 호가</td><td><b>18억 원</b> (협의)</td><td>21억 ~ 21.5억</td></tr>
+          <tr class="hi"><td class="k">연면적 평당</td><td><b>723만 원</b></td><td>772 ~ 790만 원</td></tr>
+          <tr class="hi"><td class="k">대지 평당</td><td><b>1,837만 원</b></td><td>2,144 ~ 2,195만 원</td></tr>
+          <tr><td class="k">공시지가 배율</td><td>2.85배</td><td>3.33배</td></tr>
+          <tr><td class="k">현 임대수입</td><td>월 440만 원</td><td>월 600만 원</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="cap">※ 367-4는 연면적이 9% 크고 실제 임대수입도 높습니다(월 600만 원, 보증금 9,000만 원). 그 차이를 감안해 367-4 호가를 면적으로 환산하면 본 건물 기준 19.2~19.7억 원 — 본 건물 18억 원은 같은 블록에서 가장 낮은 단가입니다.</p>
+  </section>
+
+  <section>
+    <h2>건물 개요<span class="note">2026년 11월 · 건축물대장</span></h2>
+    <dl class="specs">
+      <dt>소재지</dt><dd>대구 동구 동호로3길 13 (동호동 367-2)</dd>
+      <dt>용도지역</dt><dd>준주거지역 (지구단위계획구역)</dd>
+      <dt>건물 용도</dt><dd>제2종 근린생활시설 (경천빌딩)</dd>
+      <dt>규모</dt><dd>지상 5층 + 6층 계단실 · 승강기 1대</dd>
+      <dt>면적</dt><dd>대지 324㎡ · 연면적 823.5㎡</dd>
+      <dt>준공</dt><dd>2011년 9월 2일 · 철근콘크리트</dd>
+      <dt>건폐율·용적률</dt><dd>57.5% / 254.17%</dd>
+      <dt>주차</dt><dd>옥외 자주식 5대</dd>
+      <dt>층별 면적</dt><dd>1층 156.3㎡ · 2~5층 각 166.8㎡</dd>
+      <dt>권리금</dt><dd>없음 · 즉시 입주 가능</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>층별 임대 현황<span class="note">2026년 11월 조건</span></h2>
+    <div class="tw">
+      <table>
+        <colgroup><col style="width:16%"><col style="width:30%"><col style="width:30%"><col style="width:24%"></colgroup>
+        <thead><tr><th>층</th><th>사용</th><th>임대 현황</th><th style="text-align:right">월세</th></tr></thead>
+        <tbody>
+          <tr><td class="k"><b>1층</b> 47.3평</td><td>식당</td><td>장기 임차<br>(2020년~)</td><td class="num-cell"><b>200만</b></td></tr>
+          <tr><td class="k"><b>2층</b> 50.5평</td><td>사무실</td><td>통임대<br>(2018년~)</td><td class="num-cell"><b>240만</b></td></tr>
+          <tr><td class="k"><b>3층</b> 50.5평</td><td>사무실</td><td>2~4층 통임대</td><td class="num-cell">↑</td></tr>
+          <tr><td class="k"><b>4층</b> 50.5평</td><td>사무실</td><td>2~4층 통임대</td><td class="num-cell">↑</td></tr>
+          <tr><td class="k"><b>5층</b> 50.5평</td><td>사무실</td><td>공실<br>즉시 사용</td><td class="num-cell">–</td></tr>
+          <tr class="hi"><td class="k">합계</td><td>249.1평</td><td>보증금 4,000만</td><td class="num-cell"><b>440만</b></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="cap">※ 1층 2,000 / 200만, 2~4층 합산 2,000 / 240만 원. 5층은 공실로 자가 사용 또는 신규 임대가 가능합니다. 연 임대수입 5,280만 원.</p>
+  </section>
+
+  <section>
+    <h2>입지 · 상권<span class="note">부동산원 2026년 3분기</span></h2>
+    <div class="stats">
+      <div><b>각산역 도보 4분</b><small>대구 1호선 · 동호지구 먹자골목 안</small></div>
+      <div><b>공실률 4.2%</b><small>동호지구 일반상가 · 대구 주요 상권 중 최저</small></div>
+      <div><b>배후 2,300여 세대</b><small>상록아파트 2,333세대 등 주거 배후</small></div>
+    </div>
+    <div class="bars">
+      <div class="row"><span class="lb">동호지구 일반상가</span><span class="track"><span class="fill on" style="width:16%"></span></span><span class="vl on">4.2%</span></div>
+      <div class="row"><span class="lb">대구 중대형 평균</span><span class="track"><span class="fill" style="width:75%"></span></span><span class="vl">19.6%</span></div>
+      <div class="row"><span class="lb">동성로</span><span class="track"><span class="fill" style="width:100%"></span></span><span class="vl">26.2%</span></div>
+    </div>
+    <p class="cap">같은 기간 대구 중대형 상가 평균 공실률은 19.6%(동성로 26.2%)로 통계 이후 최악이었지만 동호지구는 4.2%를 유지했습니다. 임대 수요가 살아 있는 상권이라는 점이 이 물건의 가장 단단한 근거입니다.</p>
+  </section>
+
+  <section>
+    <h2>수익 시나리오<span class="note">명목 기준</span></h2>
+    <div class="tw">
+      <table>
+        <colgroup><col style="width:46%"><col style="width:27%"><col style="width:27%"></colgroup>
+        <thead><tr><th>구분</th><th style="text-align:right">월 임대료</th><th style="text-align:right">17.6억 기준</th></tr></thead>
+        <tbody>
+          <tr><td class="k">현재 (5층 공실)</td><td class="num-cell">440만</td><td class="num-cell">3.0%</td></tr>
+          <tr><td class="k">5층 임대<br>(월 100~120만)</td><td class="num-cell">540~560만</td><td class="num-cell"><b>3.7~3.8%</b></td></tr>
+          <tr class="hi"><td class="k">+2~4층 임대료 현실화</td><td class="num-cell">600~620만</td><td class="num-cell"><b>4.1~4.2%</b></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="cap">※ 17.6억은 매매가 18억에서 임차보증금 4,000만 원을 뺀 금액. 실투자금(18억 − 대출 5억 − 보증금 4,000만 = 약 12.6억) 기준으로는 현재 4.2%, 5층 임대 시 5%대입니다. 관리·수선·세금 차감 전 명목 기준입니다.</p>
+  </section>
+
+  <section>
+    <h2>상담에서 자주 나오는 질문</h2>
+    <div class="qa">
+      <div class="q"><i>Q1</i>지금 월세가 주변보다 싼가요?</div>
+      <p class="a">2~4층은 ㎡당 4,796원으로 인근 2층(10,000원)·3층(7,744원)의 절반~60% 수준입니다. 1층(12,796원)도 각산네거리 코너(25,882원)·역 부근(15,686원)보다 낮습니다. 2018·2020년 계약 수준이 그대로 유지된 결과로, 갱신 시 조정 여지가 있습니다.</p>
+    </div>
+    <div class="qa">
+      <div class="q"><i>Q2</i>세입자가 나가줄까요? (명도)</div>
+      <p class="a">매수 목적이 자가사용(사옥·병원·학원), 리모델링, 임차 구성 재편이라면 세입자 명도(퇴거)를 우호적으로 협의할 수 있습니다. 임대차를 그대로 인수해 수익형으로 보유하는 방식도 가능하며, 명도 범위·시점·조건은 매수 협의에서 정합니다.</p>
+    </div>
+    <div class="qa">
+      <div class="q"><i>Q3</i>대출·자금 계획은 어떻게 되나요?</div>
+      <p class="a">현재 물건에 설정된 대출은 총 5억 원입니다. 매매가 18억 원에서 대출 5억 원과 임차보증금 4,000만 원을 감안하면 실투자금은 약 12.6억 원, 실투자금 기준 현 수익률은 4.2%입니다. 대출 승계 여부·조건은 금융기관 협의에 따릅니다.</p>
+    </div>
+    <div class="qa">
+      <div class="q"><i>Q4</i>5층 공실은 어떻게 처리하나요?</div>
+      <p class="a">5층은 50.5평 독립층으로 승강기가 정지합니다. 신규 임대(월 100~120만 원 예상), 매수자 자체 사용, 임차 구성 재편 중 선택할 수 있고, 1~4층 임대를 유지한 채 5층만 자체 사용하는 구성도 가능합니다.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>이런 매수자에게 맞습니다</h2>
+    <div class="grid2">
+      <div><b>수익형 투자자</b><span>월 440만 수입 + 5층 임대 여지</span><small>실투자금 12.6억 기준 4.2%</small></div>
+      <div><b>법인 사옥</b><span>전 층 249평 단독 사용</span><small>명도 협의 가능</small></div>
+      <div><b>병·의원</b><span>2·3층 의원 용도 등재</span><small>승강기·주차 확보</small></div>
+      <div><b>리모델링·개발</b><span>준주거지역 · 용적률 254%</span><small>임차 구성 재편 여지</small></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>거래 조건<span class="note">조건은 협의</span></h2>
+    <dl class="specs">
+      <dt>매매가</dt><dd>18억 원 (협의 가능)</dd>
+      <dt>기존 대출</dt><dd>5억 원 · 승계 여부 금융기관 협의</dd>
+      <dt>임차보증금</dt><dd>4,000만 원 (매수자 승계)</dd>
+      <dt>권리금</dt><dd>없음 · 즉시 입주</dd>
+      <dt>명도</dt><dd>매수 목적에 따라 우호적 협의 가능</dd>
+      <dt>열람 서류</dt><dd>건축물대장·등기부등본·층별 임대차계약서</dd>
+      <dt>현장 임장</dt><dd>평일·주말 모두 협의 가능</dd>
+      <dt>중개보수</dt><dd>법정 상한요율 0.9% <b>전액 지급</b> (매도인 측)</dd>
+    </dl>
+  </section>
+
+  <section>
+    <div class="fee">
+      <div class="t">중개 안내 — 중개보수 법정 상한(0.9%) 전액 지급</div>
+      <p>매도인 측 중개보수는 법정 상한요율 <b>0.9%(18억 원 기준 1,620만 원)</b>를 전액 지급합니다. 공동중개·타 중개사무소 중개를 적극 환영하며, 매수자 소개만으로도 환영합니다.</p>
+    </div>
+  </section>
+
+</div>
+
+<div class="cta">
+  <div class="wrap">
+    <div class="t">매수 문의 · 현장 임장 · 공동중개 환영</div>
+    <div class="who">매도인 측 황순영</div>
+    <div class="ph">010-4982-1905</div>
+    <a class="btn" href="tel:+821049821905">전화 문의하기 (010-4982-1905)</a>
+    <div class="etc">중개보수 법정 상한(0.9%) 전액 지급 · 공동중개 적극 환영<br>임대차계약서·건축물대장 열람 가능</div>
+  </div>
+</div>
+
+<div class="wrap">
+  <footer>
+    ※ 면적·용도는 건축물대장 기준이며, 임대 조건은 2026년 11월 현재 임차 기준입니다. 수익률은 명목 기준 추정치로 관리·수선·세금 및 공실 변동에 따라 달라질 수 있습니다. 세부 권리관계와 거래 조건은 매수자 실사와 협의에 따릅니다.
+  </footer>
+</div>
+
+<div class="sticky">
+  <a href="tel:+821049821905">전화 문의하기 · <span class="n">010-4982-1905</span></a>
+</div>
+
+</body>
+</html>
